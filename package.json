@@ -1,0 +1,15 @@
+{
+  "name": "filmfy",
+  "version": "1.0.0",
+  "description": "in this web all new trend movie revuiew available.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vaibhav verma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}

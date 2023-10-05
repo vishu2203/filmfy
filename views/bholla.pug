@@ -1,0 +1,81 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Rating, Review and Trailer | Filmfy.co
+        //- link css
+        link(rel="stylesheet", href="../static/style.css")
+        link(rel="stylesheet", href="../static/movies.css")
+    body
+        nav.navbar
+          ul#ul-1
+            li
+              img.logo(src='../static/logo.png' alt='err loading logo')
+            li
+                h1 Filmfy.com
+          ul#ul-2
+            li
+              a(href='/')
+                ion-icon(name='home')
+                | Home
+            li
+              a(href='/usage')
+                | We Use
+            li
+              a(href='/hrm') High Rating movies
+            li
+              a(href='/contact') Contact
+        hr(style='margin: 20px;')
+
+        //- jawan
+        h1 Bholaa
+        hr(style='margin: 20px;')
+
+        section.video
+          video(controls='' controlslist='nodownload' autoplay='' muted='' loop)
+            source(type='video/mp4' src='../static/trailers/bholla.mp4')
+
+        section.details
+          #type
+            span Action
+            span Adventure
+            span Crime
+          #discription
+            span After getting out of prison with the desire to meet his daughter, Bholaa's plans are interrupted by a well-orchestrated drug bust.
+
+          #ratings
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            span 6.0
+
+          #direct
+            .qn
+              span.ques Director
+              span.names Ajay Devgn
+              hr
+            .qn
+              span.ques Writers
+              span.names Lokesh Kanagaraj . Ankush Singh . Aamil Keeyan Khan
+              hr
+            .qn
+              span.ques Stars
+              span.names Ajay Devgn . Tabu . Abhishek Bachan
+          #photos
+            h1 Photos 
+              ion-icon(name="chevron-forward")
+            img(src="../static/photos/bholla_photo1.jpeg", alt="err loading image")
+            img(src="../static/photos/bholla_photo2.jpg", alt="err loading image")
+            img(src="../static/photos/bholla_photo3.jpg", alt="err loading image")
+
+        footer
+          strong Filmfy Copyright &copy; 2023
+          span owner vaibhav verma
+
+    script(src="../static/script.js")
+    script(type='module' src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js')
+    script(nomodule='' src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js')

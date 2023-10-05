@@ -1,0 +1,39 @@
+#ul-2 li:nth-child(1) a {
+    background-color: #ff0000;
+}
+
+/*MOVIES*/
+.movies {
+    margin: 10px;
+}
+
+.movies .box {
+    display: inline-block;
+    margin: 10px;
+    height: 500px;
+    width: 400px;
+    border-right: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 2px 2px 3px #fff;
+}
+
+.movies .box img:hover {
+    opacity: 0.6;
+}
+
+.movies .box a img {
+    height: 450px;
+    width: 350px;
+    border-radius: 8%;
+}
+
+.movies .box a {
+    text-decoration: none;
+}
+
+.movies .box a p {
+    color: #fff;
+    margin: 15px;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}

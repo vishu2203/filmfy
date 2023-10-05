@@ -1,0 +1,50 @@
+#ul-2 li:nth-child(4) a {
+    background-color: #ff0000;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form form span {
+    color: #fff;
+    font-weight: bold;
+    display: block;
+}
+
+.form form input {
+    background-color: transparent;
+    border: none;
+    border: 1px solid #fff;
+    padding: 13px 15px;
+    color: #fff;
+    margin: 8px;
+    border-radius: 5px;
+    width: 50rem;
+    font-size: 1rem;
+}
+
+button {
+    display: block;
+    padding: 5px 70px;
+    border-radius: 8px;
+    background-color: #d4d4d4;
+    color: #000000;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+h1 {
+    color: #fff;
+    margin: 10px;
+    text-decoration: underline;
+    text-shadow: 1px 1px #fff;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+    
