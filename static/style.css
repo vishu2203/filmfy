@@ -103,7 +103,7 @@ footer span {
 }
 
 /*RESPONSIVENESS*/
-@media only screen and (max-width: 1160px) {
+@media only screen and (max-width: 1115px) {
     .navbar {
         display: none;
     }
