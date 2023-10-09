@@ -101,3 +101,37 @@ footer {
 footer span {
     margin: 0 10px;
 }
+/*RESPONSIVENESS*/
+@media only screen and (max-width: 918px) {
+    .navbar {
+        display: none;
+    }
+
+    .movies {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #show {
+        display: block;
+        color: red;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-width: 998px) {
+
+    #show {
+        display: none;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+}
