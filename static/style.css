@@ -101,6 +101,13 @@ footer {
 footer span {
     margin: 0 10px;
 }
+
+.btn {
+    color: #000;
+    bacground-color: #fff;
+    padding: 5px 10px;
+    margin: 10px;
+}
 /*RESPONSIVENESS*/
 @media only screen and (max-width: 918px) {
     .navbar {
