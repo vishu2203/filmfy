@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Rating, Review and Trailer | Filmfy.com
+        link(rel="stylesheet", href="../static/style.css")
+        //- link(rel="stylesheet", href="../static/update.css")
+    body 
+        nav.navbar
+            ul#ul-1
+                li
+                    img.logo(src='../static/logo.png' alt='err loading logo')
+                li
+                    ion-icon(name='search')
+                    input#search-box(type='search' placeholder='search movies...' name='search' onkeyup='search()')
+            ul#ul-2
+                li
+                    a(href='/')
+                        ion-icon(name='home')
+                        | Home
+                li
+                    a(href='/updates') Updates
+                li
+                    a(href='https://sites.google.com/view/fillmfy/home') our template
+                li
+                    a(href='/contact') Contact
+        hr(style='margin: 15px;')
