@@ -79,9 +79,9 @@ app.get('/adipurush', (req, res) => {
     res.status(200).render('adipurush.pug', parms);
 });
 
-app.get('/usage', (req, res) => {
+app.get('/updates', (req, res) => {
     const parms = {};
-    res.status(200).render('usage.pug', parms);
+    res.status(200).render('update.pug', parms);
 });
 
 app.get('*', (req, res) => {
